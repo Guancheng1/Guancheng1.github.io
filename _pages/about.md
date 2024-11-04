@@ -18,7 +18,7 @@ In addition to research and industry work, Guancheng is an active teaching assis
 Recent News
 ======
 **November 01, 2024:** 📢 Our paper Mutual TLS in Practice: A Deep Dive into Certificate Configurations and Privacy Issues going live in ACM library for Internet Measurement Conference, 2024
-(IMC ’24)!  [[ACM Library Link]](https://dl.acm.org/doi/10.1145/3646547.3688415) [[code link]](https://github.com/mutual-tls-study/mutual-tls-study-code) 
+(IMC ’24)!  [[Paper Link (ACM Library)]](https://dl.acm.org/doi/10.1145/3646547.3688415) [[code link]](https://github.com/mutual-tls-study/mutual-tls-study-code) 
 
 **November 03, 2024:** 📢 Be prepared to see my new project Desktop Pets within several weeks!
 
