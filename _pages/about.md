@@ -13,7 +13,7 @@ Guancheng Tu, a senior at the University of Virginia majoring in computer scienc
 
 Guancheng also brings industry experience as a software engineer intern. At Huawei Technologies Co., Ltd, he developed a communication point analysis platform to automate parameter configuration and streamline router testing. At China Communications Service Ltd., he built an automated test case management system to improve project management efficiency.
 
-In addition to research and industry work, Guancheng is an active teaching assistant for Discrete Mathematics and Theory and Computer Systems courses at UVA. In his free time, he enjoys playing the electronic piano, guitar, and Hulusi.
+In addition to research and industry work, Guancheng is an active teaching assistant for Discrete Mathematics and Theory and Computer Systems courses at UVA. In his free time, he enjoys playing basketball and musical instruments like electronic piano, guitar, and Hulusi.
 
 Getting started
 ======
