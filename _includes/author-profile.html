@@ -28,7 +28,7 @@
         <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li class="author__desktop"><a href="google.com" style="padding: 0; margin: 0; color: inherit; display: inline;"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</a></li>
+        <li class="author__desktop"><a href="https://earth.google.com/web/@38.0335529,-78.5079772,177.87287455a,811.00034789d,35y,163.51515528h,45t,0r/data=Cl0aVxJRCiUweDg5YjM4NjQ4Yjc0OWM0ZGQ6MHg0MDUxMDhjMmNjOGI1ODQ2Gc0XIHZLBENAIUZHzbKCoFPAKhZVbml2ZXJzaXR5IG9mIFZpcmdpbmlhGAEgAUICCAE6AwoBMEICCABKDQj___________8BEAA" style="padding: 0; margin: 0; color: inherit; display: inline;"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</a></li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
