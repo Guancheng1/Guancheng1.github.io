@@ -30,6 +30,8 @@ Guancheng also brings industry experience as a software engineer intern. At <a h
 In addition to research and industry work, Guancheng is an active teaching assistant for Discrete Mathematics and Theory and Computer Systems courses at UVA. In his free time, he enjoys playing basketball and musical instruments like electronic piano, guitar, and Hulusi.
 
 
+
+
 Recent News
 ======
 **November 01, 2024:** 📢 Our paper Mutual TLS in Practice: A Deep Dive into Certificate Configurations and Privacy Issues going live in ACM library for Internet Measurement Conference, 2024
