@@ -11,21 +11,19 @@ redirect_from:
   <style>
     .custom-link {
         color: black; /* Default text color */
-        text-decoration: underline;
-        transition: color 0.1s, text-decoration-color 0.1s;; /* Smooth color transition on hover */
-
+        text-decoration: none;
+        transition: color 0.1s; /* Smooth color transition on hover */
     }
 
     .custom-link:hover {
         color: orange; /* Change to orange on hover */
-        text-decoration-color: orange;
 
     }
 </style>
 
 
 ![Illustration of combining vision and language modalities](/images/img.png){: .align-right width="300px"}
-Guancheng Tu, a senior at the <a href="https://www.virginia.edu/" class="custom-link"> <b> University of Virginia </b> </a> majoring in computer science, focuses on machine learning, cybersecurity and network technologies. His research spans securing TLS certificates, where he identifies privacy risks from misconfigurations, defending IoT networks from inference attacks, and enhancing the resilience of connected vehicle identification algorithms. Each project contributes to advancements in privacy, algorithm efficiency, and network performance.
+Guancheng Tu, a senior at the <a href="https://www.virginia.edu/" class="custom-link"> <b style="text-decoration: none;"> University of Virginia </b> </a> majoring in computer science, focuses on machine learning, cybersecurity and network technologies. His research spans securing TLS certificates, where he identifies privacy risks from misconfigurations, defending IoT networks from inference attacks, and enhancing the resilience of connected vehicle identification algorithms. Each project contributes to advancements in privacy, algorithm efficiency, and network performance.
 
 Guancheng also brings industry experience as a software engineer intern. At <a href="https://www.huawei.com/en/" class="custom-link"> <b>Huawei Technologies Co., Ltd </b> </a>, he developed a communication point analysis platform to automate parameter configuration and streamline router testing. At <a href="https://www.chinaccs.com.hk/en/global/home.php" class="custom-link"> <b> China Communications Service Ltd. </b></a>, he built an automated test case management system to improve project management efficiency.
 
