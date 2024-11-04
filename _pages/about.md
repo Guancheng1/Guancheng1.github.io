@@ -11,7 +11,7 @@ redirect_from:
   <style>
     .custom-link {
         color: black; /* Default text color */
-        text-decoration: underline wavy red; /* Wavy red underline */
+        
         transition: color 0.3s; /* Smooth color transition on hover */
     }
 
@@ -24,7 +24,7 @@ redirect_from:
 ![Illustration of combining vision and language modalities](/images/img.png){: .align-right width="300px"}
 Guancheng Tu, a senior at the <a href="https://www.virginia.edu/" class="custom-link" > <b> University of Virginia </b> </a> majoring in computer science, focuses on machine learning, cybersecurity and network technologies. His research spans securing TLS certificates, where he identifies privacy risks from misconfigurations, defending IoT networks from inference attacks, and enhancing the resilience of connected vehicle identification algorithms. Each project contributes to advancements in privacy, algorithm efficiency, and network performance.
 
-Guancheng also brings industry experience as a software engineer intern. At <a href="https://www.huawei.com/en/" style="text-decoration: underline ; color: orange;"> Huawei Technologies Co., Ltd </a>, he developed a communication point analysis platform to automate parameter configuration and streamline router testing. At China Communications Service Ltd., he built an automated test case management system to improve project management efficiency.
+Guancheng also brings industry experience as a software engineer intern. At <a href="https://www.huawei.com/en/" class="custom-link"> <b>Huawei Technologies Co., Ltd </b> </a>, he developed a communication point analysis platform to automate parameter configuration and streamline router testing. At China Communications Service Ltd., he built an automated test case management system to improve project management efficiency.
 
 In addition to research and industry work, Guancheng is an active teaching assistant for Discrete Mathematics and Theory and Computer Systems courses at UVA. In his free time, he enjoys playing basketball and musical instruments like electronic piano, guitar, and Hulusi.
 
