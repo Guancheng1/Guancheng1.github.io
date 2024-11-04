@@ -17,6 +17,10 @@ redirect_from:
 
     .custom-link:hover {
         color: orange; /* Change to orange on hover */
+
+    }
+    .custom-link b {
+        text-decoration: none; /* Ensure no underline on bold text */
     }
 </style>
 
