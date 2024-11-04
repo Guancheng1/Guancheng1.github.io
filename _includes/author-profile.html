@@ -25,7 +25,7 @@
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
-      <li class="author__desktop"> <a href="https://earth.google.com/web/search/Charlottesville,+VA,+United+States/@38.04008745,-78.4850039,143.12858842a,14647.10275457d,35y,0h,0t,0r/data=CpEBGmMSXQolMHg4OWIzODYyZGVhNTBhNDhmOjB4OTA4NmYwOTZjMzhiNzRmYxk4CrVLwANDQCELjtzkgZ5TwCoiQ2hhcmxvdHRlc3ZpbGxlLCBWQSwgVW5pdGVkIFN0YXRlcxgCIAEiJgokCTlOkfOpBENAEdh7hdcTA0NAGVkekdi9n1PAIWqpZ2_KoFPAQgIIAToDCgEwQgIIAEoNCP___________wEQAA" target="_blank"><i class="fa-solid fa-location-dot fa-fw icon-pad-right" aria-hidden="true"></i> {{ author.location }}</a></li>
+      <li class="author__desktop"> <i class="fa-solid fa-location-dot fa-fw icon-pad-right" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
         <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i> {{ author.employer }}</li>
