@@ -29,6 +29,7 @@ Guancheng also brings industry experience as a software engineer intern. At <a h
 
 In addition to research and industry work, Guancheng is an active teaching assistant for Discrete Mathematics and Theory and Computer Systems courses at UVA. In his free time, he enjoys playing basketball and musical instruments like electronic piano, guitar, and Hulusi.
 
+<hr style="border: 0.00001px solid lightgray;">
 ---
 
 Recent News🔥
