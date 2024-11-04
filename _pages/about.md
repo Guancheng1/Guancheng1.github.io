@@ -9,14 +9,14 @@ redirect_from:
 ---
 
   <style>
-    .custom-link {
-        color: black; /* Default text color */
-        text-decoration: none;
+    .custom-link .custom-link * {
+        color: black !important;; /* Default text color */
+        text-decoration: none !important;;
         transition: color 0.3s; /* Smooth color transition on hover */
     }
 
     .custom-link:hover {
-        color: orange; /* Change to orange on hover */
+        color: orange !important;; /* Change to orange on hover */
 
     }
     .custom-link b {
