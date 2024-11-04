@@ -11,11 +11,14 @@ redirect_from:
   <style>
     .custom-link {
         color: black; /* Default text color */
-        transition: color 0.1s; /* Smooth color transition on hover */
+        text-decoration: underline;
+        transition: color 0.1s, text-decoration-color 0.1s;; /* Smooth color transition on hover */
+
     }
 
     .custom-link:hover {
         color: orange; /* Change to orange on hover */
+        text-decoration-color: orange;
 
     }
 </style>
