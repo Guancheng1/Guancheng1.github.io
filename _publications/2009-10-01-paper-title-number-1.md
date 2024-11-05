@@ -3,7 +3,7 @@ title: "Mutual TLS in Practice: A Deep Dive into Certificate Configurations and 
 collection: publications
 category: manuscripts
 permalink: /publication/Mutual_TLS
-excerpt: 'Our research investigates the security of mutual Transport Layer Security (mTLS) certificates using over 1.2 billion TLS connection logs collected from a large campus network over 23 months. While previous studies have primarily focused on server certificates, our work explores the lesser-studied area of analyzing both client and server certificates in mTLS connections. Through the joint analysis of connection data and certificate properties, we uncovered critical security concerns arising from the use of untrusted or misconfigured certificates, as well as from certificates being shared between servers and clients. Furthermore, we present the first in-depth study on the wide range of information included in CommonName (CN) and Subject Alternative Name (SAN) fields, revealing potential sensitive information leakage.'
+excerpt: 'In this research, we investigated the prevalence and characteristics of mutual TLS connections, including the associated services and patterns of certificate usage. Specifically, by analyzing TLS connection logs collected from a large campus network over 23 months, we identified over 2.2 million unique server certificates and over 3.4 million unique client certificates used in over 1.2 billion mutual TLS connections. Using this data, we examined security concerns, non-standard behaviors in certificate sharing, and the privacy implications of sensitive information found in mutual TLS certificates.'
 date: 2024-11-04 
 venue: "ACM Internet Measurement Conference, 2024 (IMC ’24)"
 slidesurl: 'https://github.com/mutual-tls-study/mutual-tls-study-code'
