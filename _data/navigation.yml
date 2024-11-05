@@ -5,17 +5,15 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "Research and Work Experiences"
+  - title: "Featured Research Experiences"
     url: /research_work/
     
-  - title: "Education"
+  - title: "Education and Work Experiences"
     url: /education/
         
   - title: "Selected Projects"
     url: /selected_projects/
 
-  - title: "portfolio"
-    url: /portfolio/
 
     
 
