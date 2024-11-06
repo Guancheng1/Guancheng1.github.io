@@ -25,9 +25,10 @@ redirect_from:
     .zoom-effect {
         transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
     }
-
-    .zoom-effect:hover {
-        transform: scale(1.3); /* Scale the image to 120% on hover */
+    @media (hover: hover) and (pointer: fine) {
+        .zoom-effect:hover {
+            transform: scale(1.3); /* Scale the image to 120% on hover */
+        }
     }
 
     </style>
