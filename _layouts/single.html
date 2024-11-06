@@ -36,7 +36,7 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.slidesurl == null %}
+        {% elsif page.venue=='2024 Commonwealth Cyber Initiative Symposium' %}
           <p>Poster presented in <i>{{ page.venue }}</i>, Paper under preparation </p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
@@ -51,8 +51,7 @@ layout: default
 
         {% if page.citation and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Code</a></p>
-<!--        {% elsif post.permalink == '/publication/iot' %}-->
-<!--          <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Poster</a></p>-->
+
         {% elsif page.citation and page.paperurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Poster</a></p>
         {% elsif page.citation and page.slidesurl %}
