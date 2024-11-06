@@ -23,16 +23,14 @@ redirect_from:
 
   <style>
     .zoom-effect {
-      transition: transform 0.3s ease;
-      border-radius: 50%; /* Makes the image circular */
-      overflow: hidden;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adds a soft shadow around the image */
+        transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
     }
-    
+
     .zoom-effect:hover {
-      transform: scale(1.2);
+        transform: scale(1.2); /* Scale the image to 120% on hover */
     }
-  </style>
+
+    </style>
 
 
 
