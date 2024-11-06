@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   console.log("Typing effect script loaded"); // Debugging statement
 
-  const titles = ["Software Developer", "ML Engineer", "Connected System Researcher"];
+  const titles = ["Software Developer", "Machine Learning Engineer", "Connected System Researcher"];
   const bioElement = document.getElementById("author-bio");
   let titleIndex = 0;
   let charIndex = 0;
