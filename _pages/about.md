@@ -27,7 +27,7 @@ redirect_from:
     }
 
     .zoom-effect:hover {
-        transform: scale(1.2); /* Scale the image to 120% on hover */
+        transform: scale(1.5); /* Scale the image to 120% on hover */
     }
 
     </style>
