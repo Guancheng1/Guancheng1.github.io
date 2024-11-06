@@ -4,8 +4,8 @@ title: "A prototype preceding Vehicle Identification System Development and fiel
 #category: manuscripts
 permalink: /publication/connected_vehicle
 excerpt: 'The development of connected vehicle (CV) systems relies on accurately identifying preceding vehicles, a critical step for effective vehicle-to-vehicle communication. However, GPS devices, essential for this process, are prone to positional errors, which can lead to misidentification and, in severe cases, cause drivers to follow the wrong vehicle, increasing the risk of accidents. Our research focused on addressing this issue by building and testing a real-time preceding vehicle identification system (PVIS) prototype. The system used an iterative matching strategy to mitigate GPS errors, aimed at advancing the commercial viability of CV technology.'
-#date: 2024-5-10
-venue: '10th International Conference on Vehicle Technology and Intelligent Transport Systems, 2024'
+date: 2024-5-10
+venue: '10th International Conference on Vehicle Technology and Intelligent Transport Systems'
 slidesurl: 'https://github.com/bp6v/Connected-Vehicle-Identification'
 paperurl: 'https://www.scitepress.org/publishedPapers/2024/127267/pdf/index.html'
 citation: 'Zeyu Mu, Guancheng Tu, Austin Shi, Kun Yang, Yixin Sun, Cong Shen, and Bryan Park. A prototype preceding Vehicle Identification System Development and field evaluation. In Proceedings of the 10th International Conference on Vehicle Technology and Intelligent Transport Systems, 2024'
