@@ -5,7 +5,7 @@ title: "SoK: Revisiting the Efficacy of IoT Fingerprinting Attacks and Defenses"
 permalink: /publication/iot
 excerpt: ''
 #date: 2024-02-17
-#venue: 'GitHub Journal of Bugs'
+venue: '2024 Commonwealth Cyber Initiative Symposium'
 paperurl: ''
 citation: 'Yizhe Zhang, Guancheng Tu, Qi Liu, Donald Brown, and Yixin Sun. SoK: Revisiting the Efficacy of IoT Fingerprinting Attacks and Defenses. Under preparation.'
 ---
