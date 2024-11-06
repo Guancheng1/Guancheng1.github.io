@@ -10,6 +10,5 @@ slidesurl: 'https://github.com/mutual-tls-study/mutual-tls-study-code'
 paperurl: 'https://dl.acm.org/doi/10.1145/3646547.3688415'
 citation: "Hongying Dong, Yizhe Zhang, Hyeonmin Lee, Kevin Du, Guancheng Tu, and Yixin Sun. Mutual TLS in Practice: A Deep Dive into Certificate Configurations and Privacy Issues. In Proceedings of the ACM Internet Measurement Conference, 2024 (IMC ’24)."
 ---
----
 My primary contribution to this research was in addressing the challenge of TLS interception, a significant factor that biases certificate analysis. TLS interception occurs when encrypted traffic is decrypted and re-encrypted by an intermediary, resulting in altered certificate issuers. I developed python codebase to identify and exclude such interception certificates from our dataset. By filtering out certificates whose issuer was absent from major trust stores, cross-referencing these with Certificate Transparency logs, and manually investigating discrepancies, we eliminated 871,993 certificates (8.4%) from the dataset. This process ensured that our analysis was not skewed by artificially altered certificates. This contribution was vital in improving the accuracy of our results and ensuring that our security findings reflect real-world scenarios.
 
