@@ -4,7 +4,7 @@ title: "SoK: Revisiting the Efficacy of IoT Fingerprinting Attacks and Defenses"
 #category: conferences
 permalink: /publication/iot
 excerpt: 'In our research, we addressed the critical challenge of device fingerprinting and user action inference through IoT traffic. Our work focused on answering four key questions: the granularity of device and user fingerprinting, the accuracy of fingerprinting methods, scalability across datasets, and the effectiveness of mitigation techniques. We evaluated state-of-the-art fingerprinting technologies, categorizing them based on different approaches used, while re-implementing and testing them across various datasets. A core insight from our research was the identification of areas where current defense strategies are inadequate. We revealed new dimensions in which these defenses require further consideration and demonstrated the potential inconsistency of existing strategies using open-source datasets.'
-date: 2024-12-25
+date: 2024-04-15
 venue: '2024 Commonwealth Cyber Initiative Symposium'
 paperurl: ''
 citation: 'Yizhe Zhang, Guancheng Tu, Qi Liu, Donald Brown, and Yixin Sun. SoK: Revisiting the Efficacy of IoT Fingerprinting Attacks and Defenses. Under preparation.'
