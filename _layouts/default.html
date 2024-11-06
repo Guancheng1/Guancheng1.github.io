@@ -38,23 +38,40 @@ layout: compress
     </div>
 
     {% include scripts.html %}
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      const bioText = "{{ author.bio }}";
-      console.log("Author Bio:", bioText);
-      const bioElement = document.getElementById("author-bio");
-      let charIndex = 0;
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const titles = ["Software Developer", "ML Engineer", "Connected System Researcher"];
+        const bioElement = document.getElementById("author-bio");
+        let titleIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingSpeed = 100; // Speed of typing
+        const deletingSpeed = 50; // Speed of deleting
+        const pauseBetweenTitles = 2000; // Pause before starting the next title
 
-      function type() {
-        if (charIndex < bioText.length) {
-          bioElement.textContent += bioText.charAt(charIndex);
-          charIndex++;
-          setTimeout(type, 100); // Adjust typing speed here
+        function type() {
+          const currentTitle = titles[titleIndex];
+
+          if (!isDeleting && charIndex < currentTitle.length) {
+            bioElement.textContent += currentTitle.charAt(charIndex);
+            charIndex++;
+            setTimeout(type, typingSpeed);
+          } else if (isDeleting && charIndex > 0) {
+            bioElement.textContent = currentTitle.substring(0, charIndex - 1);
+            charIndex--;
+            setTimeout(type, deletingSpeed);
+          } else if (!isDeleting && charIndex === currentTitle.length) {
+            isDeleting = true;
+            setTimeout(type, pauseBetweenTitles);
+          } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            titleIndex = (titleIndex + 1) % titles.length;
+            setTimeout(type, typingSpeed);
+          }
         }
-      }
 
-      type(); // Start typing effect
-    });
-  </script>
+        type(); // Start the typing effect
+      });
+    </script>
   </body>
 </html>
