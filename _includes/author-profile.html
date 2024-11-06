@@ -4,18 +4,6 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
-<style>
-    .author__bio::after {
-      content: '|';
-      animation: blink 1s step-end infinite;
-    }
-
-    @keyframes blink {
-      50% {
-        opacity: 0;
-      }
-    }
-</style>
 
 <div itemscope itemtype="http://schema.org/Person">
 
@@ -173,21 +161,3 @@
     </ul>
   </div>
 </div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const bioText = "{{ author.bio }}";
-    const bioElement = document.getElementById("author-bio");
-    let charIndex = 0;
-
-    function type() {
-      if (charIndex < bioText.length) {
-        bioElement.textContent += bioText.charAt(charIndex);
-        charIndex++;
-        setTimeout(type, 100); // Adjust typing speed here
-      }
-    }
-
-    type(); // Start typing effect
-  });
-</script>
