@@ -4,6 +4,19 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
+<style>
+    .author__bio::after {
+      content: '|';
+      animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+      50% {
+        opacity: 0;
+      }
+    }
+</style>
+
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
@@ -17,7 +30,8 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+<!--    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}-->
+    {% if author.bio %}<p class="author__bio" id="author-bio"></p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -159,3 +173,21 @@
     </ul>
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const bioText = "{{ author.bio }}";
+    const bioElement = document.getElementById("author-bio");
+    let charIndex = 0;
+
+    function type() {
+      if (charIndex < bioText.length) {
+        bioElement.textContent += bioText.charAt(charIndex);
+        charIndex++;
+        setTimeout(type, 100); // Adjust typing speed here
+      }
+    }
+
+    type(); // Start typing effect
+  });
+</script>
