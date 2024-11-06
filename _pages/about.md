@@ -22,7 +22,7 @@ redirect_from:
 </style>
 
 
-![Illustration of combining vision and language modalities](/images/ho.jpeg){: .align-right width="600px"}
+![Illustration of combining vision and language modalities](/images/ho.jpeg){: .align-right width="400px"}
 Guancheng Tu, a senior at the <a href="https://www.virginia.edu/" target="_blank" style="text-decoration: none;" class="custom-link"> <b style="text-decoration: none;"> University of Virginia </b> </a> majoring in computer science, focuses on machine learning, cybersecurity and network technologies. His research spans securing TLS certificates, where he identifies privacy risks from misconfigurations, defending IoT networks from inference attacks, and enhancing the resilience of connected vehicle identification algorithms. Each project contributes to advancements in privacy, algorithm efficiency, and network performance.
 
 Guancheng also brings industry experience as a software engineer intern. At <a href="https://www.huawei.com/en/" target="_blank" style="text-decoration: none;" class="custom-link"> <b style="text-decoration: none;">Huawei Technologies Co., Ltd </b> </a>, he developed a communication point analysis platform to automate parameter configuration and streamline router testing. At <a href="https://www.chinaccs.com.hk/en/global/home.php" target="_blank" style="text-decoration: none;" class="custom-link"> <b style="text-decoration: none;"> China Communications Service Ltd. </b></a>, he built an automated test case management system to improve project management efficiency.
