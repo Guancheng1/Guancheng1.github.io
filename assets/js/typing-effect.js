@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let isDeleting = false;
   const typingSpeed = 100; // Speed of typing
   const deletingSpeed = 50; // Speed of deleting
-  const pauseBetweenTitles = 2000; // Pause before starting the next title
+  const pauseBetweenTitles = 3000; // Pause before starting the next title
 
   function type() {
     const currentTitle = titles[titleIndex];
