@@ -66,6 +66,10 @@ redirect_from:
 .education-entry .dates {
   margin-top: 3px;
 }
+.uva-logo {
+  margin-top: -40px; /* Adjust this value to raise only this logo */
+}
+
 </style>
 
 
@@ -73,7 +77,7 @@ redirect_from:
   <h2><i class="fas fa-briefcase"></i> Education</h2>
 
   <div class="education-entry">
-    <img src="/images/uva.png" alt="University of Virginia Logo">
+    <img src="/images/uva.png" alt="University of Virginia Logo" class="uva-logo">
     <div>
       <div class="institution">University of Virginia</div>
       <div class="degree">Undergraduate Student</div>
