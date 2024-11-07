@@ -92,3 +92,28 @@ redirect_from:
     </div>
   </div>
 </div>
+
+
+<div class="education-card">
+  <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
+
+  <div class="education-entry">
+    <img src="/images/huawei.png" alt="Huawei Logo">
+    <div>
+      <div class="institution">Huawei Technologies Co., Ltd</div>
+      <div class="degree">Software Engineer Intern</div>
+      <div class="dates">Nanjing, China | Jun 2023 – Aug 2023</div>
+      <div class="dates">• Developed a communication point analysis platform to automate parameter configuration and streamline router testing.</div>
+    </div>
+  </div>
+
+  <div class="education-entry">
+    <img src="/images/zhongtong.png" alt="China Communications Service Logo">
+    <div>
+      <div class="institution">China Communications Service Ltd.</div>
+      <div class="degree">Software Engineer Intern</div>
+      <div class="dates">Nanjing, China | Jul 2022 – Aug 2022</div>
+      <div class="dates">• Developed an automated test case management system, increasing test case reusability by 50% and improving project management efficiency.</div>
+    </div>
+  </div>
+</div>
