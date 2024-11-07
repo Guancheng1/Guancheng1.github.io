@@ -56,7 +56,7 @@ redirect_from:
   margin-top: -75px; /* Adjust this value as needed */
 }
 .education-entry img[alt="China Communications Service Logo"] {
-  margin-top: -90px; /* Adjust this value as needed */
+  margin-top: -100px; /* Adjust this value as needed */
 }
 
 .education-entry div {
