@@ -76,7 +76,7 @@ redirect_from:
     <div>
       <div class="institution">University of Virginia</div>
       <div class="degree">Undergraduate Student</div>
-      <div class="dates">2021.08 — Present</div>
+      <div class="dates">Charlottesville, VA | 2021.08 — Present</div>
         <div class="dates">Major: B.S. in Computer Science</div>
         <div class="dates">Overall GPA: 3.923 | Major GPA: 3.972</div>
         <div class="dates">Honors: Dean's list*5</div>
@@ -88,7 +88,7 @@ redirect_from:
     <div>
       <div class="institution">The Experimental High School Attached to Beijing Normal University</div>
       <div class="degree">High School Student</div>
-      <div class="dates">2018 — 2021</div>
+      <div class="dates">Beijing, China | 2018 — 2021</div>
     </div>
   </div>
 </div>
