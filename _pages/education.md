@@ -46,17 +46,17 @@ redirect_from:
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow on logos */
 }
 .education-entry img[alt="University of Virginia Logo"] {
-  margin-top: -80px; /* Adjust this value as needed */
+  margin-top: -100px; /* Adjust this value as needed */
 }
 .education-entry img[alt="shiyan Logo"] {
-  margin-top: -13px; /* Adjust this value as needed */
+  margin-top: -30px; /* Adjust this value as needed */
 }
 
 .education-entry img[alt="Huawei Logo"] {
-  margin-top: -50px; /* Adjust this value as needed */
+  margin-top: -70px; /* Adjust this value as needed */
 }
 .education-entry img[alt="China Communications Service Logo"] {
-  margin-top: -50px; /* Adjust this value as needed */
+  margin-top: -80px; /* Adjust this value as needed */
 }
 
 .education-entry div {
