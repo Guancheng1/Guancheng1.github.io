@@ -29,7 +29,7 @@ redirect_from:
 }
 
 .education-card h2 i {
-  font-size: 1.3em;
+  font-size: 0.8em;
   margin-right: 10px;
   color: #666;
 }
