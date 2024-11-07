@@ -7,31 +7,28 @@ redirect_from:
 ---
 
 <style>
-/* Center the card horizontally on the page */
 .education-card {
-  border: 1px solid #E0E0E0;
+  border: 1px solid #E8E8E8; /* Light border color */
   border-radius: 12px;
   padding: 20px;
   max-width: 400px;
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  /*margin: 0 auto; !* Center the card horizontally *!*/
+  background-color: #FAFAFA; /* Softer background color */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); /* Softer, lighter shadow */
 }
 
-/* Center the heading within the card */
 .education-card h2 {
   display: flex;
   align-items: center;
-  /*justify-content: center; !* Center the content horizontally *!*/
+
   font-size: 1.5em;
   margin-bottom: 1em;
-  color: #333;
+  color: #555; /* Softer text color */
 }
 
 .education-card h2 i {
-  font-size: 0.8em;
+  font-size: 0.6em; /* Adjust icon size */
   margin-right: 10px;
-  color: #666;
+  color: #bbb; /* Softer icon color */
 }
 
 .education-entry {
@@ -45,7 +42,7 @@ redirect_from:
   height: 50px;
   border-radius: 50%;
   margin-right: 15px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow on logos */
 }
 
 .education-entry div {
@@ -56,18 +53,19 @@ redirect_from:
 .education-entry .institution {
   font-weight: bold;
   font-size: 1em;
-  color: #333;
+  color: #444; /* Softer text color */
 }
 
 .education-entry .degree, .education-entry .dates {
   font-size: 0.9em;
-  color: #888;
+  color: #777; /* Softer gray for secondary text */
 }
 
 .education-entry .dates {
   margin-top: 3px;
 }
 </style>
+
 
 <div class="education-card">
   <h2><i class="fas fa-briefcase"></i> Education</h2>
