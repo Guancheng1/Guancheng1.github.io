@@ -12,7 +12,8 @@ redirect_from:
   border-radius: 12px;
   padding: 20px;
   max-width: 400px;
-  background-color: #FAFAFA; /* Softer background color */
+  /*background-color: #FAFAFA; !* Softer background color *!*/
+  background-color: #ffffff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); /* Softer, lighter shadow */
 }
 
