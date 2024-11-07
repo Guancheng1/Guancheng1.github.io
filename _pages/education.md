@@ -77,6 +77,9 @@ redirect_from:
       <div class="institution">University of Virginia</div>
       <div class="degree">Undergraduate Student</div>
       <div class="dates">2021.08 — Present</div>
+        <div class="dates">Major: B.S. in Computer Science</div>
+        <div class="dates">Overall GPA: 3.923 | Major GPA: 3.972</div>
+        <div class="dates">Honors: Dean's list*5</div>
     </div>
   </div>
 
