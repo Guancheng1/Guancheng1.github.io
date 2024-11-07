@@ -44,6 +44,7 @@ redirect_from:
   border-radius: 50%;
   margin-right: 15px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow on logos */
+  margin-top: -80px;
 }
 
 .education-entry div {
