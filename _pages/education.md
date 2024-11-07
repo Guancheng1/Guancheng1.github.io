@@ -15,7 +15,7 @@ redirect_from:
   max-width: 400px;
   background-color: #f9f9f9;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 0 auto; /* Center the card horizontally */
+  /*margin: 0 auto; !* Center the card horizontally *!*/
 }
 
 /* Center the heading within the card */
