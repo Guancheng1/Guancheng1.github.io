@@ -44,7 +44,19 @@ redirect_from:
   border-radius: 50%;
   margin-right: 15px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow on logos */
-  margin-top: -60px;
+}
+.education-entry img[alt="University of Virginia Logo"] {
+  margin-top: -80px; /* Adjust this value as needed */
+}
+.education-entry img[alt="shiyan Logo"] {
+  margin-top: -13px; /* Adjust this value as needed */
+}
+
+.education-entry img[alt="Huawei Logo"] {
+  margin-top: -50px; /* Adjust this value as needed */
+}
+.education-entry img[alt="China Communications Service Logo"] {
+  margin-top: -50px; /* Adjust this value as needed */
 }
 
 .education-entry div {
@@ -65,9 +77,6 @@ redirect_from:
 
 .education-entry .dates {
   margin-top: 3px;
-}
-.uva-logo {
-  margin-top: -40px; /* Adjust this value to raise only this logo */
 }
 
 </style>
