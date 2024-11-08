@@ -29,5 +29,5 @@ to prevent the proliferation of altered versions of their original content. The 
 collective list of media that they have published; each time one of them publishes a new artifact, they will automatically add the hash of the artifact (“perceptographic” hash) to the
 global list (blockchain). If a random person on the internet wants to check the validity of a news artifact,
 they could do so through some interface (e.g. web extension, website, etc.) by checking if the hash of the
-artifact is in the list of accepted hashes. <br/> <a href='https://github.com/ahmedh409/deepfake-detection'> [Code Base] </a> <a href='/files/Deepfake_Summary.pdf'> [Project Overview] </a>"
+artifact is in the list of accepted hashes. <br/> <a href='https://github.com/ahmedh409/deepfake-detection'> [Code Base] </a> <a href='/files/Deepfake_Summary.pdf'> [Project Overview] </a>
 
