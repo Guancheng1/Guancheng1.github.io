@@ -12,7 +12,7 @@ and online publications, since this is comparatively simple to manage and is an 
 particularly damaging. Ideally, we will expand the scope of the detection mechanism as the tools we develop
 for detection improve. Further development is needed here to turn this into a viable solution for all media,
 as simply backing up all media is a brute force solution. Here, news media serves as a motivating example
-that is both important and approachable.<br/><img src='/images/deepfake.jpeg'> <br/> <a href=“https://github.com/ahmedh409/deepfake-detection”> [Code Base] </a> <a href=“/files/Deepfake_Summary.pdf”> [Project Overview] </a>"
+that is both important and approachable.<br/><img src='/images/deepfake.jpeg'> <br/> <a href='https://github.com/ahmedh409/deepfake-detection'> [Code Base] </a> <a href='/files/Deepfake_Summary.pdf'> [Project Overview] </a>"
 collection: portfolio
 ---
 Current deepfake detection techniques rely almost exclusively on identifying subtle flaws in fake media,
