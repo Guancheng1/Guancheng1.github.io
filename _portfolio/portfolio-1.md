@@ -19,8 +19,7 @@ data which covers attacks discovered before the date of model creation; b) these
 from scratch each time; c) they are generally not openly-available for the public to use due to sunk costs;
 d) when new detection models are published, deepfake generation techniques gain a new adversary to train
 against, and the task of detecting them gets more difficult. we present our ideas for a detection framework of "perceptographic” hashing. Rather than approaching the cat-and-mouse game of training models, finding
-new attacks, and training better models, we take the assumption that deepfakes will someday be truly in-
-distinguishable from reality and that a different, more fundamental approach is necessary.
+new attacks, and training better models, we take the assumption that deepfakes will someday be truly indistinguishable from reality and that a different, more fundamental approach is necessary.
 
 An example:
 -
