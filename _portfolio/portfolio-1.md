@@ -10,7 +10,7 @@ this media to a global list. Obviously, with this approach it is impossible to c
 exists or has existed - in this detection method, we restrict our scope to news media, since this is comparatively simple to manage and is an area where fake media is
 particularly damaging. Further development is needed here to turn this into a viable solution for all media,
 as simply backing up all media is a brute force solution. Here, news media serves as a motivating example
-that is both important and approachable.<br/><img src='/images/deepfake.jpeg'> <br/> <a href='https://github.com/ahmedh409/deepfake-detection'> [Code Base] </a> <a href='/files/Deepfake_Summary.pdf'> [Project Overview] </a>"
+that is both important and approachable.<br/><img src='/images/deepfake.jpeg'> <br/> <a href='https://github.com/ahmedh409/deepfake-detection'> [Code Base] </a> <a href='/files/Deepfake_Summary.pdf'> [Project Overview] </a> <hr>"
 collection: portfolio
 ---
 Current deepfake detection techniques rely almost exclusively machine learning techniques, where private corporations or research institutions construct models with huge
