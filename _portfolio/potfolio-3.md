@@ -1,5 +1,5 @@
 ---
-title: "Enhancing HRI Communication: Proactive Accent Recognition and Language Switching Robot"
+title: "Second-Hand Market Platform"
 excerpt: ""
 collection: portfolio
 ---
