@@ -13,14 +13,12 @@ as simply backing up all media is a brute force solution. Here, news media serve
 that is both important and approachable.<br/><img src='/images/deepfake.jpeg'> <br/> <a href='https://github.com/ahmedh409/deepfake-detection'> [Code Base] </a> <a href='/files/Deepfake_Summary.pdf'> [Project Overview] </a>"
 collection: portfolio
 ---
-Current deepfake detection techniques rely almost exclusively on identifying subtle flaws in fake media,
-e.g. a tiny irregularity in the blinking pattern of a face. Detecting these irregularities is done primarily using
-machine learning techniques, where private corporations or research institutions construct models with huge
+Current deepfake detection techniques rely almost exclusively machine learning techniques, where private corporations or research institutions construct models with huge
 amounts of data. Using pure ML approaches is inadvisable for a few reasons: a) these models are trained on
 data which covers attacks discovered before the date of model creation; b) these models need to be recreated
 from scratch each time; c) they are generally not openly-available for the public to use due to sunk costs;
 d) when new detection models are published, deepfake generation techniques gain a new adversary to train
-against, and the task of detecting them gets more difficult. we present our ideas for a detection framework of "perceptographic” hashing Rather than approaching the cat-and-mouse game of training models, finding
+against, and the task of detecting them gets more difficult. we present our ideas for a detection framework of "perceptographic” hashing. Rather than approaching the cat-and-mouse game of training models, finding
 new attacks, and training better models, we take the assumption that deepfakes will someday be truly in-
 distinguishable from reality and that a different, more fundamental approach is necessary.
 
@@ -28,15 +26,8 @@ An example:
 -
 Imagine several prominent news publishers (e.g. CNN, New York Times, etc.) decided to work together
 to prevent the proliferation of altered versions of their original content. The publishers would maintain a
-collective list of media that they have published; each time one of them publishes a new artifact, such as
-an article or a video, they will automatically add the hash of the artifact (“perceptographic” hash) to the
+collective list of media that they have published; each time one of them publishes a new artifact, they will automatically add the hash of the artifact (“perceptographic” hash) to the
 global list (blockchain). If a random person on the internet wants to check the validity of a news artifact,
 they could do so through some interface (e.g. web extension, website, etc.) by checking if the hash of the
-artifact is in the list of accepted hashes.
-Furthermore, this process could be automated to give some type of confirmation of validity whenever a
-secondary news source references the original and makes use of one of the artifacts, such as by showing a
-video originally published by one of the news publishers in the network. For example, if NYT uses a video
-originally created by CNN, it could have a “verified” checkmark in the top right corner, or similar, to prove
-the validity of the embedded media. If the shared list of hashes is publicly available, then this system has the
-added benefit of allowing individuals to verify validity locally, which provides transparency and eliminates
-the need for trust in an institution.
+artifact is in the list of accepted hashes. <br/> <a href='https://github.com/ahmedh409/deepfake-detection'> [Code Base] </a> <a href='/files/Deepfake_Summary.pdf'> [Project Overview] </a>"
+
