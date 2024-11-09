@@ -5,3 +5,4 @@ excerpt: "Many university students want to sell or buy second-hand furniture, bu
 collection: portfolio
 ---
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRg96CAwD4LKlQfS75MxcgTpC37x4DUU9hwZ83Sy1BZNj3ZWuj2Lx3TNrX5JMPWKw/embed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
